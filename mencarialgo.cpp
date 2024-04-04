@@ -51,7 +51,7 @@ void LinearSearch()
         i++; //step4
      }
 
-     
+     if (i == n) //step 5
     }
     
 }
