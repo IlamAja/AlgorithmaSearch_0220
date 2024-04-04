@@ -42,7 +42,11 @@ void LinearSearch()
         i = 0; //step2
      while (i < n) //step3
      {
-        
+        ctr++;
+        if (arr[i] == item)
+        {
+            cout << "\n" << item << "ditemukan di posisi " << (i + 1) << endl; //step6
+        }
      }
     }
     
