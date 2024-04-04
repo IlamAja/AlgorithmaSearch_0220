@@ -40,7 +40,10 @@ void LinearSearch()
 
         ctr = 0;
         i = 0; //step2
-    } while (/* condition */);
-    
+     while (i < n) //step3
+     {
+        
+     }
+    }
     
 }
