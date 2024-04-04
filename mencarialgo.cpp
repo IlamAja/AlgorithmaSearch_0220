@@ -35,7 +35,10 @@ void LinearSearch()
 
     do
     {
-        /* code */
+        cout << "\nMasukkan elemen array yang mau anda cari : "; //step1
+        cin >> item;
+
+        ctr = 0;
     } while (/* condition */);
     
     
