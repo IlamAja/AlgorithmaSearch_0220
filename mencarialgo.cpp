@@ -18,7 +18,7 @@ void input()
     }
     
     cout << "\n-----------------------\n";
-    cout << "Masukkan elemen array";
+    cout << "Masukkan elemen array\n";
     cout << "-----------------------\n";
     for (i = 0; i < n; i++)
     {
@@ -45,14 +45,14 @@ void LinearSearch()
         ctr++;
         if (arr[i] == item)
         {
-            cout << "\n" << item << "ditemukan di posisi " << (i + 1) << endl; //step6
+            cout << "\n" << item << " ditemukan di posisi " << (i + 1) << endl; //step6
             break;
         }
         i++; //step4
      }
 
      if (i == n) //step 5
-        cout << "\n" << item << "tidak ditemukan didalam array\n";
+        cout << "\n" << item << " tidak ditemukan didalam array\n";
         cout << "\njumlah perbandingan : " << ctr << endl;
 
         cout << "\nLanjutkan pencarian (y/n) : ";
@@ -73,4 +73,5 @@ int main()
 {
     input();
     LinearSearch();
+    display();
 }
