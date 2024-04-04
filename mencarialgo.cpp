@@ -31,4 +31,12 @@ void LinearSearch()
 {
     char ch;
     int ctr; //jumlah perbandingan
+    int item;
+
+    do
+    {
+        /* code */
+    } while (/* condition */);
+    
+    
 }
