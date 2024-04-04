@@ -7,5 +7,9 @@ int i;       //indeks elemen array
 
 void input()
 {
-    
+    while (true)
+    {
+        cout << "Masukkan jumlah elemen dalam array : ";
+        cin >> n;
+    }
 }
